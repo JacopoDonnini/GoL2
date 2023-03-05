@@ -78,14 +78,14 @@ public class GameGrid {
             for(int j=0;j<size;j++){
                 tmp=grid.get(i).get(j);
                 if(!tmp.isAlive()){
-                    if(countAliveNeighbours(tmp)==3||countAliveNeighbours(tmp)==2){
+                    if(countAliveNeighbours(tmp)==3){
                         //nascita
                         newgen.get(i).add(new GameCell(true,i,j));
                     }else{
                         newgen.get(i).add(new GameCell(false,i,j));
                     }
                 }else{
-                    if(countAliveNeighbours(tmp)<=2||countAliveNeighbours(tmp)>=4){
+                    if(countAliveNeighbours(tmp)<=1||countAliveNeighbours(tmp)>=4){
                         //morte
                         newgen.get(i).add(new GameCell(false,i,j));
                     }else{
