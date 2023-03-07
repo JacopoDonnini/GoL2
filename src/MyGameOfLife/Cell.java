@@ -1,4 +1,4 @@
-package Cazzeggio.MyGameOfLife;
+package MyGameOfLife;
 
 public abstract class Cell {
 

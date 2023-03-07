@@ -1,4 +1,4 @@
-package Cazzeggio.MyGameOfLife;
+package MyGameOfLife;
 
 import java.util.*;
 

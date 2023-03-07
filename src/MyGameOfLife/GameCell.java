@@ -1,6 +1,4 @@
-package Cazzeggio.MyGameOfLife;
-import java.util.*;
-import javax.swing.*;
+package MyGameOfLife;
 
 public class GameCell extends Cell{
     private boolean alive=false;

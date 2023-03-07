@@ -1,7 +1,5 @@
-package Cazzeggio;
-
-import Cazzeggio.MyGameOfLife.Coordinates;
-import Cazzeggio.MyGameOfLife.GameGrid;
+import MyGameOfLife.Coordinates;
+import MyGameOfLife.GameGrid;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
